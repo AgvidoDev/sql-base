@@ -10,14 +10,39 @@
 ## Задание 1. 
 Создайте новое соединение в DBeaver и подключите облачную или локальную базу данных с учебными базами данных dvd-rental и hr согласно инструкции. Сделайте скриншот результата (список подключений с раскрытыми схемами)
 
+![task1](./img/dz_01_01.jpg)
 ## Задание 2. 
 Откройте ER-диаграмму таблиц учебной базы данных dvd-rental. Сделайте скриншот результата.
 
+```
+см. скриншот с задание 1
+```
+
 ## Задание 3. 
 Перечислите все 15 таблиц учебной базы данных dvd-rental и столбцы, которые имеют ограничения первичных ключей для этих таблиц. Решение предполагает выполнение в любом текстовом или табличном редакторе, где нужно сформировать таблицу из 2х столбцов: название таблицы, название столбцов.
+```
+actor		actor_id
+address		address_id
+category	category_id
+city		city_id
+country		country_id
+customer	customer_id
+film		film_id
+film_actor	actor_id film_id
+film_category	film_id category_id
+inventory	inventory_id
+language	language_id
+payment		payment_id
+rental		rental_id
+staff		staff_id
+store		store_id
+
+```
 
 ## Задание 4. 
 Выполните SQL-запрос к учебной базе данных dvd-rental “SELECT * FROM country LIMIT 10;”. Сделайте скриншот результата.
+
+![task4](./img/dz_01_02.jpg)
 
 #**Дополнительная часть:**
 ## Задание 1. 
